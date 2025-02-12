@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="changed names and passwords">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="added a while loop with break" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,13 +108,22 @@
       <option name="project" value="LOCAL" />
       <updated>1739368614533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added a while loop with break">
+      <option name="closed" value="true" />
+      <created>1739380107013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739380107013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed vampire.py to comparisonOperators.py" />
     <MESSAGE value="added whileStatements and anAnnoyingWhileLoop" />
     <MESSAGE value="changed names and passwords" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed names and passwords" />
+    <MESSAGE value="added a while loop with break" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a while loop with break" />
   </component>
 </project>
