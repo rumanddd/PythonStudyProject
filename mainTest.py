@@ -5,9 +5,9 @@ print("What is your name?")  # Asks for your name.
 myName = input()  # Store the name once
 
 # If the name is "Ruman", ask for a password
-if myName == "Ruman":
+if myName == "Robot":
     password = input("Enter password: ")  # Ask for the password
-    if password == "ruru":  # Check if the password is correct
+    if password == "password":  # Check if the password is correct
         print("Access granted.")
     elif password == "1234": # Handles a SPECIFIC wrong password with a message
         print("WRONG! That's the kind of password everyone uses on their suitcase, dummy.")

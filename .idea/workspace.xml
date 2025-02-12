@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="changed vampire.py to comparisonOperators.py">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparisonOperators.py" beforeDir="false" afterPath="$PROJECT_DIR$/comparisonOperators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +40,16 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2sopmcLk9fynzLsSVWUqSCRwBdy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.anAnnoyingWhileLoop.executor": "Run",
     "Python.main.executor": "Run",
     "Python.vampire.executor": "Run",
     "Python.whileStatements.executor": "Run",
@@ -56,7 +60,7 @@
     "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/ruman/PycharmProjects/PythonStudyProject",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,11 +95,20 @@
       <option name="project" value="LOCAL" />
       <updated>1739313093865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added whileStatements and anAnnoyingWhileLoop">
+      <option name="closed" value="true" />
+      <created>1739314314134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739314314134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed vampire.py to comparisonOperators.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed vampire.py to comparisonOperators.py" />
+    <MESSAGE value="added whileStatements and anAnnoyingWhileLoop" />
+    <option name="LAST_COMMIT_MESSAGE" value="added whileStatements and anAnnoyingWhileLoop" />
   </component>
 </project>
