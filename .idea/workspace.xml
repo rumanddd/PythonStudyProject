@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="lots of stuff :)">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="whileLoop that counts from 1 to 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Python.attemptingLoop.executor": "Run",
     "Python.attemptingWhileLoop.executor": "Run",
     "Python.continueStatement.executor": "Run",
+    "Python.createFunction.executor": "Run",
     "Python.firstAttempt.executor": "Run",
     "Python.forLoop&range()Function.executor": "Run",
     "Python.forLoop.executor": "Run",
@@ -190,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739497686838</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="whileLoop that counts from 1 to 10">
+      <option name="closed" value="true" />
+      <created>1739499142954</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739499142954</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +213,7 @@
     <MESSAGE value="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting" />
     <MESSAGE value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
     <MESSAGE value="lots of stuff :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="lots of stuff :)" />
+    <MESSAGE value="whileLoop that counts from 1 to 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="whileLoop that counts from 1 to 10" />
   </component>
 </project>
