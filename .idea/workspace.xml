@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="changed number of guests file and added a file explaining the 'for' loop function and range() function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberOfGuests.py" beforeDir="false" afterPath="$PROJECT_DIR$/numberOfGuests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +50,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.RockPaperScissors.executor": "Run",
     "Python.anAnnoyingWhileLoop.executor": "Run",
     "Python.anAnnoyingWhileLoopWithBreak.executor": "Run",
     "Python.continueStatement.executor": "Run",
+    "Python.firstAttempt.executor": "Run",
     "Python.forLoop&range()Function.executor": "Run",
+    "Python.forLoop.executor": "Run",
+    "Python.guessTheNumber.executor": "Run",
+    "Python.importModule.executor": "Run",
     "Python.infiniteLoop.executor": "Run",
     "Python.main.executor": "Run",
     "Python.numberOfGuests.executor": "Run",
+    "Python.sysModule.executor": "Run",
     "Python.vampire.executor": "Run",
+    "Python.whileLoop.executor": "Run",
     "Python.whileStatements.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -66,7 +73,7 @@
     "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/ruman/PycharmProjects/PythonStudyProject",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -157,7 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739381403403</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting">
+      <option name="closed" value="true" />
+      <created>1739399788445</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739399788445</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changed number of guests file and added a file explaining the 'for' loop function and range() function">
+      <option name="closed" value="true" />
+      <created>1739399837243</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739399837243</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +192,7 @@
     <MESSAGE value="addded continueStatement file, I honestly am not sure what I'm supposed to be writing here, I'll have to look it up later, but as of now this works :)" />
     <MESSAGE value="added an infiniteLoop file" />
     <MESSAGE value="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting" />
-    <option name="LAST_COMMIT_MESSAGE" value="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting" />
+    <MESSAGE value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
   </component>
 </project>
