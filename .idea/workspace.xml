@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="changed number of guests file and added a file explaining the 'for' loop function and range() function">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="lots of stuff :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,9 @@
     "Python.RockPaperScissors.executor": "Run",
     "Python.anAnnoyingWhileLoop.executor": "Run",
     "Python.anAnnoyingWhileLoopWithBreak.executor": "Run",
+    "Python.attemptingForLoop.executor": "Run",
+    "Python.attemptingLoop.executor": "Run",
+    "Python.attemptingWhileLoop.executor": "Run",
     "Python.continueStatement.executor": "Run",
     "Python.firstAttempt.executor": "Run",
     "Python.forLoop&range()Function.executor": "Run",
@@ -180,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739399837243</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lots of stuff :)">
+      <option name="closed" value="true" />
+      <created>1739497686838</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739497686838</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +203,7 @@
     <MESSAGE value="added an infiniteLoop file" />
     <MESSAGE value="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting" />
     <MESSAGE value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
+    <MESSAGE value="lots of stuff :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="lots of stuff :)" />
   </component>
 </project>
