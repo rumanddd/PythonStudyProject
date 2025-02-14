@@ -32,3 +32,5 @@ This readme file is just little notes for me to remember some important things I
 - You can also import all functions from a module with a from statement.
     for example, from random import *
 
+- Parameters are like empty boxes waiting for values.
+- Arguments are the values you put inside those boxes when calling the function.
