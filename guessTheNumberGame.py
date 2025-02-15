@@ -20,5 +20,5 @@ for guessesTaken in range(1, 7):
         if guessesTaken == 1:
             print('Good job! You guessed my number in 1 guess!')  # Singular case
         else:
-            print(f'Good job! You guessed my number in {guessesTaken} guesses!')  # Plural case
+            print('Good job! You guessed my number in {guessesTaken} guesses!')  # Plural case
         break  # Exit the loop since the correct number was guessed.

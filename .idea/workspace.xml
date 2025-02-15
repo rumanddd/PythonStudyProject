@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="def statement with parameters">
-      <change beforePath="$PROJECT_DIR$/RockPaperScissors.py" beforeDir="false" afterPath="$PROJECT_DIR$/RockPaperScissors.py" afterDir="false" />
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="changed so you don't need to add a capital letter to start, need to fix it so it accepts both">
+      <change beforePath="$PROJECT_DIR$/guessTheNumberGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/guessTheNumberGame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
     "Python.forLoop&range()Function.executor": "Run",
     "Python.forLoop.executor": "Run",
     "Python.guessTheNumber.executor": "Run",
+    "Python.guessTheNumberGame.executor": "Run",
     "Python.helloFunc2.executor": "Run",
     "Python.importModule.executor": "Run",
     "Python.infiniteLoop.executor": "Run",
@@ -225,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739647966347</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changed so you don't need to add a capital letter to start, need to fix it so it accepts both">
+      <option name="closed" value="true" />
+      <created>1739648229744</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739648229744</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +251,7 @@
     <MESSAGE value="whileLoop that counts from 1 to 10" />
     <MESSAGE value="learn how to create a function" />
     <MESSAGE value="def statement with parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="def statement with parameters" />
+    <MESSAGE value="changed so you don't need to add a capital letter to start, need to fix it so it accepts both" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed so you don't need to add a capital letter to start, need to fix it so it accepts both" />
   </component>
 </project>
