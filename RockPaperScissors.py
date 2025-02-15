@@ -14,18 +14,18 @@ while True: # The main game loop.
         playerMove = input()
         if playerMove =='Quit':
             sys.exit()
-        if playerMove == 'Rock' or playerMove == 'Paper' or playerMove == 'Scissors':
+        if playerMove == 'rock' or playerMove == 'paper' or playerMove == 'scissors':
             break
 
 
     # Display what the player chose:
-    if playerMove == 'Rock':
+    if playerMove == 'rock':
         print('Rock versus...')
-    elif playerMove == 'Paper':
+    elif playerMove == 'paper':
         print('Paper versus...')
-    elif playerMove == 'Scissors':
+    elif playerMove == 'scissors':
         print('Scissors versus...')
-    elif playerMove == 'Quit':
+    elif playerMove == 'quit':
         break
 
     # Display what the computer chose:
