@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="Added explanation for scopes">
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="Added explanation for local and global scopes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739891660365</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added explanation for local and global scopes">
+      <option name="closed" value="true" />
+      <created>1739892443917</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1739892443918</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -326,6 +334,7 @@
     <MESSAGE value="Call stack" />
     <MESSAGE value="Added detail about call stack" />
     <MESSAGE value="Added explanation for scopes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added explanation for scopes" />
+    <MESSAGE value="Added explanation for local and global scopes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added explanation for local and global scopes" />
   </component>
 </project>
