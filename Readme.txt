@@ -34,3 +34,7 @@ This readme file is just little notes for me to remember some important things I
 
 - Parameters are like empty boxes waiting for values.
 - Arguments are the values you put inside those boxes when calling the function.
+
+-The call stack is a technical detail that you don’t strictly need to know about to write programs.
+    It’s enough to understand that function calls return to the line number they were called from.
+    However, understanding call stacks makes it easier to understand local and global scopes
