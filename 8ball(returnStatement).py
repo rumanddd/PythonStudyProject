@@ -24,4 +24,4 @@ r = random.randint(1, 9) # This value is stored in a variable named r.
 fortune = getAnswer(r) # The getAnswer() function is called with r as the argument
 print(fortune) # The returned string is assigned to a variable named fortune
 
-# print(getAnswer(random.randint(1, 9))) # This code is equivalent to the code above
+# print(getAnswer(random.randint(1, 9))) # This code is equivalent to the code above.
