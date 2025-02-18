@@ -54,3 +54,5 @@ This readme file is just little notes for me to remember some important things I
    * If there is a global statement for that variable in a function, it is a global variable.
    * Otherwise, if the variable is used in an assignment statement in the function, it is a local variable.
    * But if the variable is not used in an assignment statement, it is a global variable.
+
+If you ever want to modify the value stored in a global variable from IN a function, you must use a global statement on that variable.
