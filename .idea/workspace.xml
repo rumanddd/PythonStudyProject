@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="global statement">
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
-    </list>
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="statement changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -328,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739893284626</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="statement changes">
+      <option name="closed" value="true" />
+      <created>1739893519099</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1739893519099</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -356,6 +362,7 @@
     <MESSAGE value="Added explanation for local and global scopes" />
     <MESSAGE value="local and global statement have the same name" />
     <MESSAGE value="global statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="global statement" />
+    <MESSAGE value="statement changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="statement changes" />
   </component>
 </project>
