@@ -48,3 +48,9 @@ This readme file is just little notes for me to remember some important things I
 
 - So far from my understand a global scope is a variable that is defined outside of any function.
 - A local scope is a variable that is defined inside a function (Indented)
+
+- There are four rules to tell whether a variable is in a local scope or global scope:
+   * If a variable is being used in the global scope (that is, outside of all functions), then it is always a global variable.
+   * If there is a global statement for that variable in a function, it is a global variable.
+   * Otherwise, if the variable is used in an assignment statement in the function, it is a local variable.
+   * But if the variable is not used in an assignment statement, it is a global variable.
