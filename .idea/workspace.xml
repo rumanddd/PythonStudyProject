@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="Added detail about call stack">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="Added explanation for scopes">
       <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +82,7 @@
     "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/ruman/PycharmProjects/PythonStudyProject",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -293,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739891152224</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added explanation for scopes">
+      <option name="closed" value="true" />
+      <created>1739891660365</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1739891660365</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -317,6 +325,7 @@
     <MESSAGE value="Keyword Arguments and print function" />
     <MESSAGE value="Call stack" />
     <MESSAGE value="Added detail about call stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added detail about call stack" />
+    <MESSAGE value="Added explanation for scopes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added explanation for scopes" />
   </component>
 </project>

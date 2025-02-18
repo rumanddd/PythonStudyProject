@@ -45,3 +45,6 @@ This readme file is just little notes for me to remember some important things I
    * Code in a function’s local scope cannot use variables in any other local scope.
    * You can use the same name for different variables if they are in different scopes.
      That is, there can be a local variable named spam and a global variable also named spam.
+
+- So far from my understand a global scope is a variable that is defined outside of any function.
+- A local scope is a variable that is defined inside a function (Indented)
