@@ -38,3 +38,10 @@ This readme file is just little notes for me to remember some important things I
 -The call stack is a technical detail that you don’t strictly need to know about to write programs.
     It’s enough to understand that function calls return to the line number they were called from.
     However, understanding call stacks makes it easier to understand local and global scopes
+
+- Scopes matter for several reasons:
+   * Code in the global scope, outside of all functions, cannot use any local variables.
+   * However, code in a local scope can access global variables.
+   * Code in a function’s local scope cannot use variables in any other local scope.
+   * You can use the same name for different variables if they are in different scopes.
+     That is, there can be a local variable named spam and a global variable also named spam.
