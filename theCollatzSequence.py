@@ -14,6 +14,4 @@ while n != 1:
     n = collatz(n)
     steps += 1  # Increment counter
 
-print(f"It took {steps} steps to reach 1.")
-
-# For even numbers divide by 2, for odd numbers multiply by 4 and add 1
+print("It took {steps} steps to reach 1.")
