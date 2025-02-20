@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="zigzag in terminal using imports, if and else and booleans and try statements">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="removed f string">
+      <change beforePath="$PROJECT_DIR$/theCollatzSequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/theCollatzSequence.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,12 +346,26 @@
       <option name="project" value="LOCAL" />
       <updated>1739894160967</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added theCollatzSequence remember to change it as you progress">
+      <option name="closed" value="true" />
+      <created>1739902712231</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1739902712231</updated>
+    </task>
+    <task id="LOCAL-00031" summary="removed f string">
+      <option name="closed" value="true" />
+      <created>1740079219709</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1740079219709</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added whileStatements and anAnnoyingWhileLoop" />
-    <MESSAGE value="changed names and passwords" />
     <MESSAGE value="added a while loop with break" />
     <MESSAGE value="added an infnite loop" />
     <MESSAGE value="addded continueStatement file, I honestly am not sure what I'm supposed to be writing here, I'll have to look it up later, but as of now this works :)" />
@@ -375,6 +389,8 @@
     <MESSAGE value="global statement" />
     <MESSAGE value="statement changes" />
     <MESSAGE value="zigzag in terminal using imports, if and else and booleans and try statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="zigzag in terminal using imports, if and else and booleans and try statements" />
+    <MESSAGE value="added theCollatzSequence remember to change it as you progress" />
+    <MESSAGE value="removed f string" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed f string" />
   </component>
 </project>
