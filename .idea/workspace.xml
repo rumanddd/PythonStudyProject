@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="removed f string">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="added data types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,8 @@
     "Python.Define, Call, Pass, Argument, Parameter.executor": "Run",
     "Python.RockPaperScissors.executor": "Run",
     "Python.abcdCallStack.executor": "Run",
+    "Python.allMyCats1.executor": "Run",
+    "Python.allMyCats2.executor": "Run",
     "Python.anAnnoyingWhileLoop.executor": "Run",
     "Python.anAnnoyingWhileLoopWithBreak.executor": "Run",
     "Python.attemptingForLoop.executor": "Run",
@@ -393,11 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1740079451653</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added data types">
+      <option name="closed" value="true" />
+      <created>1740225276324</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1740225276324</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a while loop with break" />
     <MESSAGE value="added an infnite loop" />
     <MESSAGE value="addded continueStatement file, I honestly am not sure what I'm supposed to be writing here, I'll have to look it up later, but as of now this works :)" />
     <MESSAGE value="added an infiniteLoop file" />
@@ -422,6 +431,7 @@
     <MESSAGE value="zigzag in terminal using imports, if and else and booleans and try statements" />
     <MESSAGE value="added theCollatzSequence remember to change it as you progress" />
     <MESSAGE value="removed f string" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed f string" />
+    <MESSAGE value="added data types" />
+    <option name="LAST_COMMIT_MESSAGE" value="added data types" />
   </component>
 </project>
