@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="added data types">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="List Types and how to make them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,8 @@
     "Python.firstAttempt.executor": "Run",
     "Python.forLoop&range()Function.executor": "Run",
     "Python.forLoop.executor": "Run",
+    "Python.forLoopIndexingList.executor": "Run",
+    "Python.forLoopWithList.executor": "Run",
     "Python.globalStatement.executor": "Run",
     "Python.guessTheNumber.executor": "Run",
     "Python.guessTheNumberGame.executor": "Run",
@@ -403,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1740225276324</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="List Types and how to make them">
+      <option name="closed" value="true" />
+      <created>1740225819927</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1740225819927</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added an infnite loop" />
     <MESSAGE value="addded continueStatement file, I honestly am not sure what I'm supposed to be writing here, I'll have to look it up later, but as of now this works :)" />
     <MESSAGE value="added an infiniteLoop file" />
     <MESSAGE value="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting" />
@@ -432,6 +441,7 @@
     <MESSAGE value="added theCollatzSequence remember to change it as you progress" />
     <MESSAGE value="removed f string" />
     <MESSAGE value="added data types" />
-    <option name="LAST_COMMIT_MESSAGE" value="added data types" />
+    <MESSAGE value="List Types and how to make them" />
+    <option name="LAST_COMMIT_MESSAGE" value="List Types and how to make them" />
   </component>
 </project>
