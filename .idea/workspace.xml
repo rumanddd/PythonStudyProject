@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="." />
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,22 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739131941842</updated>
-    </task>
-    <task id="LOCAL-00001" summary="changed vampire.py to comparisonOperators.py">
-      <option name="closed" value="true" />
-      <created>1739313093865</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1739313093865</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added whileStatements and anAnnoyingWhileLoop">
-      <option name="closed" value="true" />
-      <created>1739314314134</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1739314314134</updated>
     </task>
     <task id="LOCAL-00003" summary="changed names and passwords">
       <option name="closed" value="true" />
@@ -527,7 +513,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740344826958</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;insertMethod.py">
+      <option name="closed" value="true" />
+      <created>1740344878535</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1740344878535</updated>
+    </task>
+    <task id="LOCAL-00050" summary=".">
+      <option name="closed" value="true" />
+      <created>1740344974016</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1740344974017</updated>
+    </task>
+    <task id="LOCAL-00051" summary=".">
+      <option name="closed" value="true" />
+      <created>1740345142348</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1740345142348</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,8 +576,8 @@
     <MESSAGE value="random modules" />
     <MESSAGE value="appendMethod with a list" />
     <MESSAGE value="insertMethod" />
-    <MESSAGE value="." />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;insertMethod.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;insertMethod.py" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
