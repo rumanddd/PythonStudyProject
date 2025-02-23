@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="In and Not In operators">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +90,7 @@
     "Python.localGlobalSameName.executor": "Run",
     "Python.main.executor": "Run",
     "Python.numberOfGuests.executor": "Run",
+    "Python.randomChoiceAndRandomShuffle.executor": "Run",
     "Python.returnValueReturnStatement.executor": "Run",
     "Python.sameNameLocalGlobal.executor": "Run",
     "Python.sysModule.executor": "Run",
@@ -431,11 +430,26 @@
       <option name="project" value="LOCAL" />
       <updated>1740336563240</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary=".">
+      <option name="closed" value="true" />
+      <created>1740339561512</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1740339561512</updated>
+    </task>
+    <task id="LOCAL-00039" summary=".">
+      <option name="closed" value="true" />
+      <created>1740339569100</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1740339569100</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting" />
     <MESSAGE value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
     <MESSAGE value="lots of stuff :)" />
     <MESSAGE value="whileLoop that counts from 1 to 10" />
@@ -460,6 +474,7 @@
     <MESSAGE value="List Types and how to make them" />
     <MESSAGE value="for loops" />
     <MESSAGE value="In and Not In operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="In and Not In operators" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
