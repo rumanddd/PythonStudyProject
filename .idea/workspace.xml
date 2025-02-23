@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="for loops">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="In and Not In operators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +96,7 @@
     "Python.sameNameLocalGlobal.executor": "Run",
     "Python.sysModule.executor": "Run",
     "Python.theCollatzSequence.executor": "Run",
+    "Python.tupleUnpacking.executor": "Run",
     "Python.vampire.executor": "Run",
     "Python.whileLoop.executor": "Run",
     "Python.whileStatements.executor": "Run",
@@ -422,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1740336162553</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="In and Not In operators">
+      <option name="closed" value="true" />
+      <created>1740336563240</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1740336563240</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added an infiniteLoop file" />
     <MESSAGE value="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting" />
     <MESSAGE value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
     <MESSAGE value="lots of stuff :)" />
@@ -451,6 +459,7 @@
     <MESSAGE value="added data types" />
     <MESSAGE value="List Types and how to make them" />
     <MESSAGE value="for loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="for loops" />
+    <MESSAGE value="In and Not In operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="In and Not In operators" />
   </component>
 </project>
