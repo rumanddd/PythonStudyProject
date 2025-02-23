@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="insertMethod">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/insertMethod.py" afterDir="false" />
-    </list>
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +33,6 @@
       </branch-storage>
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -61,68 +57,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Define, Call, Pass, Argument, Parameter.executor": "Run",
-    "Python.RockPaperScissors.executor": "Run",
-    "Python.abcdCallStack.executor": "Run",
-    "Python.allMyCats1.executor": "Run",
-    "Python.allMyCats2.executor": "Run",
-    "Python.anAnnoyingWhileLoop.executor": "Run",
-    "Python.anAnnoyingWhileLoopWithBreak.executor": "Run",
-    "Python.attemptingForLoop.executor": "Run",
-    "Python.attemptingLoop.executor": "Run",
-    "Python.attemptingWhileLoop.executor": "Run",
-    "Python.augmentedAssignmentOperators.executor": "Run",
-    "Python.continueStatement.executor": "Run",
-    "Python.createFunction.executor": "Run",
-    "Python.firstAttempt.executor": "Run",
-    "Python.forLoop&range()Function.executor": "Run",
-    "Python.forLoop.executor": "Run",
-    "Python.forLoopIndexingList.executor": "Run",
-    "Python.forLoopWithList.executor": "Run",
-    "Python.globalStatement.executor": "Run",
-    "Python.guessTheNumber.executor": "Run",
-    "Python.guessTheNumberGame.executor": "Run",
-    "Python.helloFunc2.executor": "Run",
-    "Python.importModule.executor": "Run",
-    "Python.in&NotInOperators.executor": "Run",
-    "Python.infiniteLoop.executor": "Run",
-    "Python.insertMethod.executor": "Run",
-    "Python.keywordArguments.executor": "Run",
-    "Python.listDataType.executor": "Run",
-    "Python.localGlobalSameName.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.numberOfGuests.executor": "Run",
-    "Python.randomChoiceAndRandomShuffle.executor": "Run",
-    "Python.randomShuffleModule.executor": "Run",
-    "Python.returnValueReturnStatement.executor": "Run",
-    "Python.sameNameLocalGlobal.executor": "Run",
-    "Python.sysModule.executor": "Run",
-    "Python.theCollatzSequence.executor": "Run",
-    "Python.tupleUnpacking.executor": "Run",
-    "Python.vampire.executor": "Run",
-    "Python.whileLoop.executor": "Run",
-    "Python.whileStatements.executor": "Run",
-    "Python.zigzag.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/ruman/PycharmProjects/PythonStudyProject",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Define, Call, Pass, Argument, Parameter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RockPaperScissors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.abcdCallStack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.allMyCats1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.allMyCats2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.anAnnoyingWhileLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.anAnnoyingWhileLoopWithBreak.executor&quot;: &quot;Run&quot;,
+    &quot;Python.attemptingForLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.attemptingLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.attemptingWhileLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.augmentedAssignmentOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.continueStatement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.createFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.firstAttempt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forLoop&amp;range()Function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forLoopIndexingList.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forLoopWithList.executor&quot;: &quot;Run&quot;,
+    &quot;Python.globalStatement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guessTheNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guessTheNumberGame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.helloFunc2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.importModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.in&amp;NotInOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.infiniteLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.insertMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keywordArguments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listDataType.executor&quot;: &quot;Run&quot;,
+    &quot;Python.localGlobalSameName.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numberOfGuests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.randomChoiceAndRandomShuffle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.randomShuffleModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.returnValueReturnStatement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sameNameLocalGlobal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sysModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.theCollatzSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tupleUnpacking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vampire.executor&quot;: &quot;Run&quot;,
+    &quot;Python.whileLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.whileStatements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zigzag.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ruman/PycharmProjects/PythonStudyProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$USER_HOME$/Documents/GitHub/desktop-tutorial" />
@@ -515,7 +511,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740343811097</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary=".">
+      <option name="closed" value="true" />
+      <created>1740344812677</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1740344812677</updated>
+    </task>
+    <task id="LOCAL-00048" summary=".">
+      <option name="closed" value="true" />
+      <created>1740344826958</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1740344826958</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="learn how to create a function" />
     <MESSAGE value="def statement with parameters" />
     <MESSAGE value="changed so you don't need to add a capital letter to start, need to fix it so it accepts both" />
     <MESSAGE value="removed the f from the print string" />
@@ -553,9 +564,10 @@
     <MESSAGE value="for loops" />
     <MESSAGE value="In and Not In operators" />
     <MESSAGE value="random modules" />
-    <MESSAGE value="." />
     <MESSAGE value="appendMethod with a list" />
     <MESSAGE value="insertMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="insertMethod" />
+    <MESSAGE value="." />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;insertMethod.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;insertMethod.py" />
   </component>
 </project>
