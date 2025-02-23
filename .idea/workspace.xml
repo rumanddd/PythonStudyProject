@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/appendMethod.py" afterDir="false" />
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="insertMethod">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/insertMethod.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,7 @@
     "Python.importModule.executor": "Run",
     "Python.in&NotInOperators.executor": "Run",
     "Python.infiniteLoop.executor": "Run",
+    "Python.insertMethod.executor": "Run",
     "Python.keywordArguments.executor": "Run",
     "Python.listDataType.executor": "Run",
     "Python.localGlobalSameName.executor": "Run",
@@ -111,7 +113,7 @@
     "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/ruman/PycharmProjects/PythonStudyProject",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "editing.templates"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -497,12 +499,38 @@
       <option name="project" value="LOCAL" />
       <updated>1740342827201</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="appendMethod with a list">
+      <option name="closed" value="true" />
+      <created>1740343504234</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1740343504234</updated>
+    </task>
+    <task id="LOCAL-00046" summary="insertMethod">
+      <option name="closed" value="true" />
+      <created>1740343811097</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1740343811097</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lots of stuff :)" />
-    <MESSAGE value="whileLoop that counts from 1 to 10" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="learn how to create a function" />
     <MESSAGE value="def statement with parameters" />
     <MESSAGE value="changed so you don't need to add a capital letter to start, need to fix it so it accepts both" />
@@ -526,6 +554,8 @@
     <MESSAGE value="In and Not In operators" />
     <MESSAGE value="random modules" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="appendMethod with a list" />
+    <MESSAGE value="insertMethod" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertMethod" />
   </component>
 </project>
