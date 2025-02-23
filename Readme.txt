@@ -56,3 +56,6 @@ This readme file is just little notes for me to remember some important things I
    * But if the variable is not used in an assignment statement, it is a global variable.
 
 If you ever want to modify the value stored in a global variable from IN a function, you must use a global statement on that variable.
+
+- A method is the same thing as a function, except it is “called on” a value.
+- A function is a block of code that performs a task. A method is a block of code that performs a task on a value.
