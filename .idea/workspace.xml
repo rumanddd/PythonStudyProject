@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="List Types and how to make them">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="for loops">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +85,7 @@
     "Python.guessTheNumberGame.executor": "Run",
     "Python.helloFunc2.executor": "Run",
     "Python.importModule.executor": "Run",
+    "Python.in&NotInOperators.executor": "Run",
     "Python.infiniteLoop.executor": "Run",
     "Python.keywordArguments.executor": "Run",
     "Python.listDataType.executor": "Run",
@@ -106,7 +107,7 @@
     "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/ruman/PycharmProjects/PythonStudyProject",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.postfix.templates"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -413,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1740225819927</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="for loops">
+      <option name="closed" value="true" />
+      <created>1740336162553</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1740336162553</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="addded continueStatement file, I honestly am not sure what I'm supposed to be writing here, I'll have to look it up later, but as of now this works :)" />
     <MESSAGE value="added an infiniteLoop file" />
     <MESSAGE value="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting" />
     <MESSAGE value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
@@ -442,6 +450,7 @@
     <MESSAGE value="removed f string" />
     <MESSAGE value="added data types" />
     <MESSAGE value="List Types and how to make them" />
-    <option name="LAST_COMMIT_MESSAGE" value="List Types and how to make them" />
+    <MESSAGE value="for loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="for loops" />
   </component>
 </project>
