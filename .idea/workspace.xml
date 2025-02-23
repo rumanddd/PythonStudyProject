@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="." />
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="random modules" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +71,7 @@
     "Python.attemptingForLoop.executor": "Run",
     "Python.attemptingLoop.executor": "Run",
     "Python.attemptingWhileLoop.executor": "Run",
+    "Python.augmentedAssignmentOperators.executor": "Run",
     "Python.continueStatement.executor": "Run",
     "Python.createFunction.executor": "Run",
     "Python.firstAttempt.executor": "Run",
@@ -91,6 +92,7 @@
     "Python.main.executor": "Run",
     "Python.numberOfGuests.executor": "Run",
     "Python.randomChoiceAndRandomShuffle.executor": "Run",
+    "Python.randomShuffleModule.executor": "Run",
     "Python.returnValueReturnStatement.executor": "Run",
     "Python.sameNameLocalGlobal.executor": "Run",
     "Python.sysModule.executor": "Run",
@@ -446,11 +448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1740339569100</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="random modules">
+      <option name="closed" value="true" />
+      <created>1740339910047</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1740339910047</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed number of guests file and added a file explaining the 'for' loop function and range() function" />
     <MESSAGE value="lots of stuff :)" />
     <MESSAGE value="whileLoop that counts from 1 to 10" />
     <MESSAGE value="learn how to create a function" />
@@ -475,6 +484,7 @@
     <MESSAGE value="for loops" />
     <MESSAGE value="In and Not In operators" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="random modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="random modules" />
   </component>
 </project>
