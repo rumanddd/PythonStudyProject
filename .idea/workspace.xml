@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment=".">
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="Full list of methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.8ball(List).executor": "Run",
     "Python.Define, Call, Pass, Argument, Parameter.executor": "Run",
     "Python.RockPaperScissors.executor": "Run",
     "Python.abcdCallStack.executor": "Run",
@@ -145,14 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739131941842</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added a while loop with break">
-      <option name="closed" value="true" />
-      <created>1739380107013</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1739380107013</updated>
     </task>
     <task id="LOCAL-00005" summary="addded continueStatement file, I honestly am not sure what I'm supposed to be writing here, I'll have to look it up later, but as of now this works :)">
       <option name="closed" value="true" />
@@ -538,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740347249552</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Full list of methods">
+      <option name="closed" value="true" />
+      <created>1740658704695</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1740658704695</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -554,7 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="def statement with parameters" />
     <MESSAGE value="changed so you don't need to add a capital letter to start, need to fix it so it accepts both" />
     <MESSAGE value="removed the f from the print string" />
     <MESSAGE value="fixed the program? Somehow" />
@@ -579,6 +579,7 @@
     <MESSAGE value="insertMethod" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;insertMethod.py" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Full list of methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full list of methods" />
   </component>
 </project>
