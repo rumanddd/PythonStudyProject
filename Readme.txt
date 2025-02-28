@@ -1,4 +1,4 @@
-# Python Study Project
+# Python Study Project # 
 
 This repository contains various Python scripts and notes to help reinforce programming concepts. It serves as a personal reference guide, documenting key ideas, syntax rules, and useful tips.
 
