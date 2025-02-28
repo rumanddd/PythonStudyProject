@@ -1,13 +1,16 @@
 def spam():
-  global eggs
-  eggs = 'spam' # this is the global
+    global eggs  # Declares 'eggs' as a global variable
+    eggs = 'spam'  # Assigns 'spam' to the global variable 'eggs'
+
 
 def bacon():
-  eggs = 'bacon' # this is a local
+    eggs = 'bacon'  # Creates a local variable 'eggs' (does not affect the global one)
+
 
 def ham():
-  print(eggs) # this is the global
+    print(eggs)  # Prints the global variable 'eggs'
 
-eggs = 42 # this is the global
-spam()
-print(eggs)
+
+eggs = 42  # Assigns 42 to the global variable 'eggs'
+spam()  # Calls the spam function, changing the global 'eggs' to 'spam'
+print(eggs)  # Prints 'spam' because the global variable was modified

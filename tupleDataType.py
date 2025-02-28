@@ -1,19 +1,16 @@
-# The tuple data type is almost identical to the list data type, except in two ways.
-# First, tuples are typed with parentheses, ( and ), instead of square brackets, [ and ].
-# Second, tuples are immutable, which means they cannot be changed once they are created.
+# The tuple data type is almost identical to the list data type, except in two ways:
+# 1. Tuples are defined using parentheses ( ) instead of square brackets [ ].
+# 2. Tuples are immutable, meaning they cannot be modified after creation.
 
 # Creating a tuple
-my_tuple = ('apple', 24, 0.2)
-print(my_tuple)
+my_tuple = ('apple', 24, 0.2)  # A tuple containing a string, an integer, and a float
+print(my_tuple)  # Prints ('apple', 24, 0.2)
 
-# If you have only one value in your tuple, you can indicate this by placing a trailing comma after the value inside the parentheses.
-# Otherwise, Python will think you’ve just typed a value inside regular parentheses.
-# The comma is what lets Python know this is a tuple value.
+# Single-value tuples must have a trailing comma; otherwise, Python treats them as regular values.
+print(type(('hello',)))  # Correct: This is a tuple
+print(type(('hello')))  # Incorrect: This is a string, not a tuple
 
-type(('hello',)) # This is a tuple
-type(('hello')) # This is a string
-
-# Converting Types with the list() and tuple() Functions
-print(tuple(['Cat', 'Dog', 5])) # This will convert a list to a tuple, ('Cat', 'Dog', 5)
-print(list(('Cat', 'Dog', 5, 2))) # This will convert a tuple to a list, ['Cat', 'Dog', 5]
-print(list('Hello')) # This will convert a string to a list, ['H', 'e', 'l', 'l', 'o']
+# Converting data types using list() and tuple() functions
+print(tuple(['Cat', 'Dog', 5]))  # Converts a list to a tuple: ('Cat', 'Dog', 5)
+print(list(('Cat', 'Dog', 5, 2)))  # Converts a tuple to a list: ['Cat', 'Dog', 5, 2]
+print(list('Hello'))  # Converts a string to a list: ['H', 'e', 'l', 'l', 'o']

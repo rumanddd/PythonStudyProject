@@ -5,7 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/idFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/idFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8ball(List).py" beforeDir="false" afterPath="$PROJECT_DIR$/8ball(List).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Define, Call, Pass, Argument, Parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Define, Call, Pass, Argument, Parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allMyCats1.py" beforeDir="false" afterPath="$PROJECT_DIR$/allMyCats1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allMyCats2.py" beforeDir="false" afterPath="$PROJECT_DIR$/allMyCats2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anAnnoyingWhileLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/anAnnoyingWhileLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appendMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/appendMethod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/augmentedAssignmentOperators.py" beforeDir="false" afterPath="$PROJECT_DIR$/augmentedAssignmentOperators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparisonOperators.py" beforeDir="false" afterPath="$PROJECT_DIR$/comparisonOperators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/continueStatement.py" beforeDir="false" afterPath="$PROJECT_DIR$/continueStatement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstAttempt.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstAttempt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/forLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forLoopIndexingList.py" beforeDir="false" afterPath="$PROJECT_DIR$/forLoopIndexingList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forLoopWithList.py" beforeDir="false" afterPath="$PROJECT_DIR$/forLoopWithList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/globalStatement.py" beforeDir="false" afterPath="$PROJECT_DIR$/globalStatement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in&amp;NotInOperators.py" beforeDir="false" afterPath="$PROJECT_DIR$/in&amp;NotInOperators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/insertMethod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keywordArguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/keywordArguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listDataType.py" beforeDir="false" afterPath="$PROJECT_DIR$/listDataType.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localGlobalSameName.py" beforeDir="false" afterPath="$PROJECT_DIR$/localGlobalSameName.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomChoiceModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/randomChoiceModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomShuffleModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/randomShuffleModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/references.py" beforeDir="false" afterPath="$PROJECT_DIR$/references.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sameNameLocalGlobal.py" beforeDir="false" afterPath="$PROJECT_DIR$/sameNameLocalGlobal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequenceDataTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequenceDataTypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stringMutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/stringMutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sysModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/sysModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupleDataType.py" beforeDir="false" afterPath="$PROJECT_DIR$/tupleDataType.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tupleUnpacking.py" beforeDir="false" afterPath="$PROJECT_DIR$/tupleUnpacking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whileLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/whileLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whileStatements.py" beforeDir="false" afterPath="$PROJECT_DIR$/whileStatements.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739131941842</updated>
-    </task>
-    <task id="LOCAL-00016" summary="changed so you don't need to add a capital letter to start, need to fix it so it accepts both">
-      <option name="closed" value="true" />
-      <created>1739648229744</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1739648229744</updated>
     </task>
     <task id="LOCAL-00017" summary="removed the f from the print string">
       <option name="closed" value="true" />
@@ -547,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740708979170</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary=".">
+      <option name="closed" value="true" />
+      <created>1740709081960</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1740709081960</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,11 +1,12 @@
-import random
+import random  # Import the random module
 
-# Write code that prints "Hello" if 1 is stored in spam, prints "Howdy" if 2 is stored in spam, and prints "Greetings!" if anything else is stored in spam.
-spam = random.randint(1, 3) # Generate a random number once
+# Generate a random number (either 1, 2, or 3) and store it in 'spam'
+spam = random.randint(1, 3)
 
+# Check the value of 'spam' and print the corresponding message
 if spam == 1:
-    print('Hello')
+    print('Hello')  # Print "Hello" if spam is 1
 elif spam == 2:
-    print('Howdy')
+    print('Howdy')  # Print "Howdy" if spam is 2
 else:
-    print('Greetings!')
+    print('Greetings!')  # Print "Greetings!" if spam is anything else (in this case, 3)

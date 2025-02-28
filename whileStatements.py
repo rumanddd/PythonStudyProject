@@ -1,6 +1,5 @@
-eggs = 0
-while eggs < 10:
-    print('Hello There!')
-    eggs = eggs + 1
-# This code gives the variable eggs a value of 0 and then runs a while loop
-# that will print 'Hello There!' 10 times but adds a value of +1 to the variable eggs.
+eggs = 0  # Initialize the counter variable
+
+while eggs < 10:  # Loop runs while eggs is less than 10
+    print('Hello There!')  # Print the message
+    eggs = eggs + 1  # Increment eggs by 1 to avoid an infinite loop

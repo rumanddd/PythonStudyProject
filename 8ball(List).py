@@ -1,6 +1,8 @@
-import random
+import random  # Importing the random module for generating random numbers
 
-messages = ['It is certain',
+# Creating a list of possible messages
+messages = [
+    'It is certain',
     'It is decidedly so',
     'Yes definitely',
     'Reply hazy try again',
@@ -8,10 +10,18 @@ messages = ['It is certain',
     'Concentrate and ask again',
     'My reply is no',
     'Outlook not so good',
-    'Very doubtful']
+    'Very doubtful'
+]
 
-print(messages[random.randint(0, len(messages) - 1)])
+# Generating a random index between 0 and the last index of the messages list
+random_index = random.randint(0, len(messages) - 1)
 
-''' Prints a random message from the list of messages using the random module and the random.randint()
-function to generate a random number between 0 and the length of the messages list minus 1 (0-indexed).
-The resulting index is then used to access the corresponding message in the messages list. '''
+# Printing a random message using the generated index
+print(messages[random_index])
+
+'''
+Explanation:
+- `random.randint(0, len(messages) - 1)` generates a random number within the valid index range of the list.
+- The random index is then used to retrieve a message from the `messages` list.
+- This simulates an "8-ball" style random response generator.
+'''

@@ -1,4 +1,4 @@
-print('Hello', end=' ') # You can set the end keyword argument to change the newline character to a different string.
-print('World')
+print('Hello', end=' ')  # Prints 'Hello' and replaces the default newline with a space
+print('World')  # Prints 'World' on the same line
 
-print('dog', 'cat', 'mouse', sep=' & ') # You can set the sep keyword argument to change the separator between the strings.
+print('dog', 'cat', 'mouse', sep=' & ')  # Prints 'dog & cat & mouse' with '&' as the separator
