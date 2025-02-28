@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/stringMutation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +103,7 @@
     "Python.stringMutation.executor": "Run",
     "Python.sysModule.executor": "Run",
     "Python.theCollatzSequence.executor": "Run",
+    "Python.tupleDataType.executor": "Run",
     "Python.tupleUnpacking.executor": "Run",
     "Python.vampire.executor": "Run",
     "Python.whileLoop.executor": "Run",
@@ -149,14 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739131941842</updated>
-    </task>
-    <task id="LOCAL-00009" summary="numberOfGuests file, need to check what the hell is up with the indentation errors I'm getting">
-      <option name="closed" value="true" />
-      <created>1739399788445</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1739399788445</updated>
     </task>
     <task id="LOCAL-00010" summary="changed number of guests file and added a file explaining the 'for' loop function and range() function">
       <option name="closed" value="true" />
@@ -542,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740701494219</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary=".">
+      <option name="closed" value="true" />
+      <created>1740701508916</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1740701508916</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
