@@ -96,6 +96,7 @@
     "Python.localGlobalSameName.executor": "Run",
     "Python.main.executor": "Run",
     "Python.numberOfGuests.executor": "Run",
+    "Python.passingReference.executor": "Run",
     "Python.randomChoiceAndRandomShuffle.executor": "Run",
     "Python.randomShuffleModule.executor": "Run",
     "Python.references.executor": "Run",
@@ -151,14 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739131941842</updated>
-    </task>
-    <task id="LOCAL-00012" summary="whileLoop that counts from 1 to 10">
-      <option name="closed" value="true" />
-      <created>1739499142954</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1739499142954</updated>
     </task>
     <task id="LOCAL-00013" summary="learn how to create a function">
       <option name="closed" value="true" />
@@ -544,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740703689115</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary=".">
+      <option name="closed" value="true" />
+      <created>1740706199596</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1740706199596</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
