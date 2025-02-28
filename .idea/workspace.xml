@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +95,7 @@
     "Python.numberOfGuests.executor": "Run",
     "Python.randomChoiceAndRandomShuffle.executor": "Run",
     "Python.randomShuffleModule.executor": "Run",
+    "Python.references.executor": "Run",
     "Python.returnValueReturnStatement.executor": "Run",
     "Python.sameNameLocalGlobal.executor": "Run",
     "Python.sequenceDataTypes.executor": "Run",
@@ -149,14 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739131941842</updated>
-    </task>
-    <task id="LOCAL-00010" summary="changed number of guests file and added a file explaining the 'for' loop function and range() function">
-      <option name="closed" value="true" />
-      <created>1739399837243</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1739399837243</updated>
     </task>
     <task id="LOCAL-00011" summary="lots of stuff :)">
       <option name="closed" value="true" />
@@ -542,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740701508916</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary=".">
+      <option name="closed" value="true" />
+      <created>1740702636972</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1740702636972</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
