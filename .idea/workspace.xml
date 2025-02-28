@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Readme.txt">
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.html" afterDir="false" />
+    <list default="true" id="34106f56-40d4-4e25-b586-39e807077fec" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/Readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +154,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739131941842</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Call stack">
-      <option name="closed" value="true" />
-      <created>1739891109604</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1739891109604</updated>
     </task>
     <task id="LOCAL-00023" summary="Added detail about call stack">
       <option name="closed" value="true" />
@@ -547,7 +539,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740711495586</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary=".">
+      <option name="closed" value="true" />
+      <created>1740711549417</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1740711549417</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -586,8 +586,8 @@
     <MESSAGE value="insertMethod" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;insertMethod.py" />
     <MESSAGE value="Full list of methods" />
-    <MESSAGE value="." />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Readme.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Readme.txt" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
