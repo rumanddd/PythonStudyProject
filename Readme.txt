@@ -1,16 +1,16 @@
-Python Study Project
+# Python Study Project
 
 This repository contains various Python scripts and notes to help reinforce programming concepts. It serves as a personal reference guide, documenting key ideas, syntax rules, and useful tips.
 
-Key Learnings & Notes
+## Key Learnings & Notes
 
-Loops
+### Loops
 
 You can only use continue and break statements inside while and for loops.
 
 A while loop can accomplish the same tasks as a for loop, though for loops are often more concise.
 
-Functions & Arguments
+### Functions & Arguments
 
 Some functions, like range(), accept multiple arguments separated by commas.
 
@@ -18,7 +18,7 @@ Example: range(start, stop, step) allows control over the sequence of numbers.
 
 Functions can have default parameter values and accept keyword arguments.
 
-List & Tuple Operations
+### List & Tuple Operations
 
 Lists are mutable, meaning they can be modified after creation, whereas tuples are immutable.
 
@@ -35,13 +35,13 @@ Tuples support tuple unpacking, allowing values to be extracted into separate va
 coordinates = (10, 20)
 x, y = coordinates  # x = 10, y = 20
 
-Modules & Imports
+### Modules & Imports
 
 The random module allows random selection from lists using random.choice().
 
 import sys enables program termination via sys.exit().
 
-Miscellaneous Tips
+### Miscellaneous Tips
 
 The id() function returns an object’s memory address.
 
@@ -49,7 +49,7 @@ The in and not in operators check for membership in sequences (lists, strings, t
 
 Global and local variables can have the same name, but local variables take precedence within functions.
 
-File Overview
+## File Overview
 
 This repository contains multiple Python scripts, each demonstrating different concepts:
 
@@ -63,7 +63,7 @@ stringMutation.py → Demonstrates immutability of strings.
 
 tupleUnpacking.py → Shows how tuple unpacking works.
 
-How to Use
+## How to Use
 
 Clone the repository:
 
@@ -79,11 +79,11 @@ python script_name.py
 
 (Replace script_name.py with the actual script filename.)
 
-Contributing
+## Contributing
 
 This repository is mainly for personal learning, but if you'd like to contribute or discuss ideas, feel free to open an issue!
 
-License
+## License
 
 This project is for educational purposes and is free to use.
 
