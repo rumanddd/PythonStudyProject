@@ -75,6 +75,7 @@
     "Python.attemptingWhileLoop.executor": "Run",
     "Python.augmentedAssignmentOperators.executor": "Run",
     "Python.continueStatement.executor": "Run",
+    "Python.copyAndDeepCopyModule.executor": "Run",
     "Python.createFunction.executor": "Run",
     "Python.firstAttempt.executor": "Run",
     "Python.forLoop&range()Function.executor": "Run",
@@ -152,14 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739131941842</updated>
-    </task>
-    <task id="LOCAL-00013" summary="learn how to create a function">
-      <option name="closed" value="true" />
-      <created>1739540545688</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1739540545688</updated>
     </task>
     <task id="LOCAL-00014" summary="def statement with parameters">
       <option name="closed" value="true" />
@@ -545,7 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740706199596</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary=".">
+      <option name="closed" value="true" />
+      <created>1740708248925</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1740708248925</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
