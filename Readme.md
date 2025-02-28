@@ -28,18 +28,18 @@ This repository contains various Python scripts and notes to help reinforce prog
   x, y = coordinates  # x = 10, y = 20
   ```
 
-###📦 **Modules & Imports**
+### 📦 **Modules & Imports**
 - The `random` module allows random selection from lists using `random.choice()`.
 - `import sys` enables program termination via `sys.exit()`.
 
-###🔹 **Miscellaneous Tips**
+### 🔹 **Miscellaneous Tips**
 - The `id()` function returns an object’s memory address.
 - The `in` and `not in` operators check for membership in sequences (lists, strings, tuples, etc.).
 - Global and local variables can have the same name, but local variables take precedence within functions.
 
 ---
 
-##📁 **File Overview**
+## 📁 **File Overview**
 This repository contains multiple Python scripts, each demonstrating different concepts:
 
 - **`RockPaperScissors.py`** → A simple game implementing user input and conditional statements.
@@ -50,7 +50,7 @@ This repository contains multiple Python scripts, each demonstrating different c
 
 ---
 
-##🚀 **How to Use**
+## 🚀 **How to Use**
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/rumanddd/PythonStudyProject.git
@@ -67,11 +67,11 @@ This repository contains multiple Python scripts, each demonstrating different c
 
 ---
 
-##🤝 **Contributing**
+## 🤝 **Contributing**
 This repository is mainly for personal learning, but if you'd like to contribute or discuss ideas, feel free to open an issue!
 
 ---
 
-##📜 **License**
+## 📜 **License**
 This project is for educational purposes and is free to use.
 
