@@ -2,10 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import random
-
+import scipy.signal
 
 class AntColonySimulation:
-    def __init__(self, width=50, height=50, n_ants=50, evaporation_rate=0.05, diffusion_rate=0.1):
+    def __init__(self, width=50, height=50, n_ants=20, evaporation_rate=0.05, diffusion_rate=0.1):
         # Environment
         self.width = width
         self.height = height
@@ -28,6 +28,9 @@ class AntColonySimulation:
             (-1, 0), (-1, 1), (0, 1), (1, 1),
             (1, 0), (1, -1), (0, -1), (-1, -1)
         ]
+
+        # Preallocate visualization data
+        self.rgb_data = np.zeros((height, width, 3))
 
     def setup(self):
         # Create nest at center
@@ -59,166 +62,145 @@ class AntColonySimulation:
             })
 
     def update(self):
-        # Process ant movement
-        for ant in self.ants:
+        # Process ant movement (only update a subset of ants per frame)
+        for ant in self.ants[:10]:  # Only update 10 ants per frame
             self._move_ant(ant)
 
         # Update pheromones
         self._update_pheromones()
 
     def _move_ant(self, ant):
-        i, j = ant['pos']
+        # Extract ant properties to local variables
+        pos = ant['pos']
+        direction = ant['direction']
+        has_food = ant['has_food']
+        state = ant['state']
+        i, j = pos
 
         # Deposit pheromone
-        if ant['has_food']:
-            self.pheromone[i, j] += self.pheromone_deposit * 2  # Stronger trail when carrying food
-        else:
-            self.pheromone[i, j] += self.pheromone_deposit * 0.5
+        deposit = 2.0 * self.pheromone_deposit if has_food else 0.5 * self.pheromone_deposit
+        self.pheromone[i, j] += deposit
 
         # Check if at nest with food
-        if ant['has_food'] and ant['pos'] == self.nest:
-            ant['has_food'] = False
-            ant['state'] = 'exploring'
+        if has_food and pos == self.nest:
+            has_food = False
+            state = 'exploring'
             self.food_found += 1
 
         # Check if found food
-        elif not ant['has_food'] and self.food[i, j]:
-            ant['has_food'] = True
-            ant['state'] = 'returning'
-            # Turn around when food is found
-            ant['direction'] = (ant['direction'] + 4) % 8
+        elif not has_food and self.food[i, j]:
+            has_food = True
+            state = 'returning'
+            direction = (direction + 4) % 8  # Immediate U-turn
 
         # Choose next direction
-        if ant['state'] == 'returning':
-            # When returning, head towards nest with some randomness
-            self._head_towards_nest(ant)
-        else:  # exploring
-            # Follow pheromones or explore randomly
-            if random.random() < 0.8:  # 80% chance to follow pheromones
-                self._follow_pheromones(ant)
+        if state == 'returning':
+            direction = self._calculate_nest_direction(pos, direction)
+        else:
+            if random.random() < 0.8:
+                direction = self._follow_pheromones(pos, direction)
             else:
-                # Random direction change
-                ant['direction'] = (ant['direction'] + random.randint(-1, 1)) % 8
+                direction = (direction + random.randint(-1, 1)) % 8
 
         # Move ant
-        new_i = i + self.directions[ant['direction']][0]
-        new_j = j + self.directions[ant['direction']][1]
+        di, dj = self.directions[direction]
+        new_i = i + di
+        new_j = j + dj
 
         # Boundary checking
         if 0 <= new_i < self.height and 0 <= new_j < self.width:
-            ant['pos'] = (new_i, new_j)
+            pos = (new_i, new_j)
 
-    def _head_towards_nest(self, ant):
-        i, j = ant['pos']
+        # Update ant properties
+        ant.update({
+            'pos': pos,
+            'direction': direction,
+            'has_food': has_food,
+            'state': state
+        })
+
+    def _calculate_nest_direction(self, pos, current_dir):
+        """Returns new direction instead of modifying ant dict"""
+        i, j = pos
         nest_i, nest_j = self.nest
-
-        # Determine best direction to head towards nest
         di = nest_i - i
         dj = nest_j - j
 
         # Determine best direction based on di, dj
-        if di == 0 and dj > 0:  # East
-            best_dir = 2
-        elif di == 0 and dj < 0:  # West
-            best_dir = 6
-        elif di > 0 and dj == 0:  # South
-            best_dir = 4
-        elif di < 0 and dj == 0:  # North
-            best_dir = 0
-        elif di > 0 and dj > 0:  # Southeast
-            best_dir = 3
-        elif di > 0 and dj < 0:  # Southwest
-            best_dir = 5
-        elif di < 0 and dj > 0:  # Northeast
-            best_dir = 1
-        else:  # Northwest
-            best_dir = 7
+        if di == 0:
+            base_dir = 2 if dj > 0 else 6
+        elif dj == 0:
+            base_dir = 4 if di > 0 else 0
+        else:
+            if di > 0:
+                base_dir = 3 if dj > 0 else 5
+            else:
+                base_dir = 1 if dj > 0 else 7
 
-        # Add some randomness (20% chance to deviate)
+        # Add randomness
         if random.random() < 0.2:
-            best_dir = (best_dir + random.randint(-1, 1)) % 8
+            base_dir = (base_dir + random.randint(-1, 1)) % 8
 
-        ant['direction'] = best_dir
+        return base_dir
 
-    def _follow_pheromones(self, ant):
-        i, j = ant['pos']
-        max_pheromone = 0
-        best_dir = ant['direction']
+    def _follow_pheromones(self, pos, current_dir):
+        """Returns new direction instead of modifying ant dict"""
+        i, j = pos
+        max_phero = -1
+        best_dir = current_dir
 
-        # Check pheromone levels in neighboring cells
         for dir_idx, (di, dj) in enumerate(self.directions):
             ni, nj = i + di, j + dj
             if 0 <= ni < self.height and 0 <= nj < self.width:
-                if self.pheromone[ni, nj] > max_pheromone:
-                    max_pheromone = self.pheromone[ni, nj]
+                if self.pheromone[ni, nj] > max_phero:
+                    max_phero = self.pheromone[ni, nj]
                     best_dir = dir_idx
 
-        # If pheromone found, 80% chance to follow, otherwise continue current direction
-        if max_pheromone > 0 and random.random() < 0.8:
-            ant['direction'] = best_dir
-        else:
-            # Random direction change
-            ant['direction'] = (ant['direction'] + random.randint(-1, 1)) % 8
+        return best_dir if (max_phero > 0 and random.random() < 0.8) else \
+               (current_dir + random.randint(-1, 1)) % 8
 
     def _update_pheromones(self):
         # Evaporation
         self.pheromone *= (1 - self.evaporation_rate)
 
-        # Diffusion (simple averaging with neighbors)
-        new_pheromone = self.pheromone.copy()
-        for i in range(1, self.height - 1):
-            for j in range(1, self.width - 1):
-                # Average with neighbors
-                neighbors_avg = (
-                                        self.pheromone[i - 1, j] + self.pheromone[i + 1, j] +
-                                        self.pheromone[i, j - 1] + self.pheromone[i, j + 1]
-                                ) / 4
-                # Apply diffusion
-                new_pheromone[i, j] = (1 - self.diffusion_rate) * self.pheromone[
-                    i, j] + self.diffusion_rate * neighbors_avg
-
-        self.pheromone = new_pheromone
+        # Simplified diffusion (average with immediate neighbors)
+        kernel = np.array([[0, 1, 0],
+                           [1, 0, 1],
+                           [0, 1, 0]]) / 4.0
+        self.pheromone = (1 - self.diffusion_rate) * self.pheromone + \
+                         self.diffusion_rate * scipy.signal.convolve2d(
+                             self.pheromone, kernel, mode='same', boundary='wrap')
 
     def get_visualization_data(self):
-        # Create RGB representation for visualization
-        rgb_data = np.zeros((self.height, self.width, 3))
+        # Reset to black
+        self.rgb_data[:, :, :] = 0
 
         # Add pheromone as blue channel
-        normalized_pheromone = self.pheromone / (np.max(self.pheromone) + 0.01)  # Avoid div by zero
-        rgb_data[:, :, 2] = normalized_pheromone
+        normalized_pheromone = self.pheromone / (np.max(self.pheromone) + 0.01)
+        self.rgb_data[:, :, 2] = normalized_pheromone
 
         # Add food as green
-        rgb_data[:, :, 1] = self.food.astype(float)
+        self.rgb_data[:, :, 1] = self.food.astype(float)
 
         # Add nest as red
-        nest_i, nest_j = self.nest
-        rgb_data[nest_i, nest_j, 0] = 1.0
+        self.rgb_data[self.nest[0], self.nest[1], 0] = 1.0
 
         # Add ants
         for ant in self.ants:
             i, j = ant['pos']
             if ant['has_food']:
-                # Yellow ant (carrying food)
-                rgb_data[i, j, 0] = 1.0
-                rgb_data[i, j, 1] = 1.0
-                rgb_data[i, j, 2] = 0.0
+                self.rgb_data[i, j, :2] = 1.0  # Yellow
             else:
-                # Red ant (searching)
-                rgb_data[i, j, 0] = 1.0
-                rgb_data[i, j, 1] = 0.0
-                rgb_data[i, j, 2] = 0.0
+                self.rgb_data[i, j, 0] = 1.0  # Red
 
-        return rgb_data
+        return self.rgb_data
 
 
 # Run simulation with animation
 def run_simulation():
-    # Add this variable near the parameters
-    render_every = 2  # Only render every 2nd simulation update
-    frame_counter = 0
     # Parameters
-    width, height = 100, 100
-    n_ants = 50
+    width, height = 50, 50  # Reduced grid size
+    n_ants = 20  # Reduced number of ants
     simulation = AntColonySimulation(width, height, n_ants)
     simulation.setup()
 
@@ -233,20 +215,13 @@ def run_simulation():
 
     # Animation function
     def update(frame):
-        nonlocal frame_counter
-        for _ in range(10):  # Higher steps per frame
-         for _ in range(20):  # Run multiple steps per frame for faster simulation
-            simulation.update()
-            frame_counter += 1
-
-        # Update visualization
-        if frame_counter % render_every == 0:
-            img.set_array(simulation.get_visualization_data())
-            food_text.set_text(f'Food collected: {simulation.food_found}')
+        simulation.update()
+        img.set_array(simulation.get_visualization_data())
+        food_text.set_text(f'Food collected: {simulation.food_found}')
         return img, food_text
 
     # Create animation
-    ani = FuncAnimation(fig, update, frames=200, interval=10, blit=True)
+    ani = FuncAnimation(fig, update, frames=200, interval=100, blit=True)  # Slower but smoother
     plt.tight_layout()
     plt.show()
 
