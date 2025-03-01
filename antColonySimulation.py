@@ -5,7 +5,7 @@ import random
 
 
 class AntColonySimulation:
-    def __init__(self, width=100, height=100, n_ants=50, evaporation_rate=0.05, diffusion_rate=0.1):
+    def __init__(self, width=50, height=50, n_ants=50, evaporation_rate=0.05, diffusion_rate=0.1):
         # Environment
         self.width = width
         self.height = height
@@ -213,6 +213,9 @@ class AntColonySimulation:
 
 # Run simulation with animation
 def run_simulation():
+    # Add this variable near the parameters
+    render_every = 2  # Only render every 2nd simulation update
+    frame_counter = 0
     # Parameters
     width, height = 100, 100
     n_ants = 50
@@ -230,16 +233,20 @@ def run_simulation():
 
     # Animation function
     def update(frame):
-        for _ in range(5):  # Run multiple steps per frame for faster simulation
+        nonlocal frame_counter
+        for _ in range(10):  # Higher steps per frame
+         for _ in range(20):  # Run multiple steps per frame for faster simulation
             simulation.update()
+            frame_counter += 1
 
         # Update visualization
-        img.set_array(simulation.get_visualization_data())
-        food_text.set_text(f'Food collected: {simulation.food_found}')
+        if frame_counter % render_every == 0:
+            img.set_array(simulation.get_visualization_data())
+            food_text.set_text(f'Food collected: {simulation.food_found}')
         return img, food_text
 
     # Create animation
-    ani = FuncAnimation(fig, update, frames=200, interval=50, blit=True)
+    ani = FuncAnimation(fig, update, frames=200, interval=10, blit=True)
     plt.tight_layout()
     plt.show()
 
