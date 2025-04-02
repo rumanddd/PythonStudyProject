@@ -5,7 +5,7 @@ while True:
     if name == '':
         break
     if name in birthdays:
-            print(name + "'s birthday is on " + birthdays[name])
+            print(name + "'s birthday is on the " + birthdays[name])
     else:
             print('I do not have the birthday information for ' + name)
             print('When is their birthday?')
