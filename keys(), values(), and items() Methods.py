@@ -11,3 +11,4 @@ for v in spam.values():
 # ('color', 'age') instead of the values, so the output would be:
 # color
 # age
+# spam.items() is a method that returns a list of tuples (key, value)
