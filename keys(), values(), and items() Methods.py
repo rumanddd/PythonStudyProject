@@ -12,3 +12,11 @@ for v in spam.values():
 # color
 # age
 # spam.items() is a method that returns a list of tuples (key, value)
+
+
+# spam = {'color': 'red', 'age': 42}
+# for k, v in spam.items():
+#   print('Key: ' + k + ' Value: ' + str(v))
+
+# Key: age Value: 42
+# Key: color Value: red
